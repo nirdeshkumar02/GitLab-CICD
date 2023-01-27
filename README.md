@@ -24,7 +24,7 @@
     - Manual agreement by someone responsible
     - Deploy to Prod
 
-### GitLab CICD vs Jenkins vs Azure DevOps
+# GitLab CICD vs Jenkins vs Azure DevOps
 
     - GitLab CICD
         1. GitLab is new to industry and its community is in growing phase.
@@ -43,7 +43,7 @@
         2. Best Integration for features can be easily possible with Microsoft Services. Other tool integrtion not so easy to integrate.
         3. Commercial/SAAS Tool
 
-### Complete Learning, We use GitLab on Self-Hosted Servers.
+### In Complete Learning, We use GitLab on Self-Hosted Servers.
 
 # GitLab Basic CICD Pipeline
 
