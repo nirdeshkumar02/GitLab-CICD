@@ -47,22 +47,12 @@
 
 # GitLab Basic CICD Pipeline
 ### Job Name Limitation
-- image
-- services
-- stages
-- types
-- before_script
-- after_script
-- variables
-- cache
-- include
-- true
-- false
-- nil
+- We Can't Use these keywords as jobs-name
+    - image, services, stages, types, before_script, after_script, variables
+    - cache, include, true, false, nil
 
 - .gitlab-ci.yml -> It is a yaml based scripted pipeline file where we define all the action or workflows. (Jenkinsfile in Jenkins)
 - Jobs -> Jobs are the most fundamental building block of pipelines. (Steps in terms of Jenkinsfile)
-    ![Gitlab-Jobs-Image](https://github.com/nirdeshkumar02/GitLab-CICD/blob/master/job.png)
     - example 
         ```yml
             job1:
@@ -70,4 +60,5 @@
             job2:
                 script: "execute-script-for-job-2"
         ```
+    ![Gitlab-Jobs-Image](https://github.com/nirdeshkumar02/GitLab-CICD/blob/master/job.png)
 - 
